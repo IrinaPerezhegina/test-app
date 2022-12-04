@@ -14,7 +14,7 @@ const StartPage = () => {
                                 className="border btn btn-primary mb-5 w-50 mx-auto"
                                 to="/test"
                             >
-                                Начать текстирование
+                                Начать тестирование
                             </Link>
 
                             <Link
