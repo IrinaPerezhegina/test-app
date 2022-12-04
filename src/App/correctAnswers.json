@@ -1,0 +1,47 @@
+[
+    {
+        "question": "Вторая планета Солнечной системы?",
+        "answer": [
+            { "value": 1, "name": "Венера" },
+            { "value": 2, "name": "Меркурий" },
+            { "value": 3, "name": "Земля" }
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Число 27 в двоичной системе исчисления?",
+        "answer": [
+            { "value": 1, "name": "111000" },
+            { "value": 2, "name": "101010" },
+            { "value": 3, "name": "11011" }
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Примерное количество людей на Земле?",
+        "answer": [
+            { "value": 1, "name": "7 млрд." },
+            { "value": 2, "name": "10 млрд." },
+            { "value": 3, "name": "5 млрд." }
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Кто написал «Сказка о царе Салтане?",
+        "answer": [
+            { "value": 1, "name": "Лермонтов" },
+            { "value": 2, "name": "Пушкин" },
+            { "value": 3, "name": "Некрасов" }
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Сколько граней у куба?",
+        "answer": [
+            { "value": 1, "name": "6" },
+            { "value": 2, "name": "8" },
+            { "value": 3, "name": "12" }
+        ],
+        "correctAnswer": 1
+    }
+]

@@ -1,0 +1,146 @@
+body {
+    overflow:hidden;
+    padding-top: 4px;
+    margin: 0;
+    background: rgb(247, 242, 242);
+}
+
+.container{
+    height: 650px;
+    padding: 1rem 2rem;
+    background: red;
+    border-radius: 3px;
+}
+.title {
+    padding: 2rem 0;
+    background: rgb(151, 188, 243);
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    border-radius: 5px;
+}
+.startWrapper{
+    text-align: center;
+}
+
+
+.testWtapper{
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    margin:0 auto;
+    width: 90%;
+    border-radius: 3px;
+    >span{
+        text-decoration: underline;
+    }
+}
+
+.questionInput{
+    padding: 1rem;
+    background: grey;
+    border-radius: 2px;
+}
+
+.questionBtn {
+        text-align: right;
+}
+.questionBtnNext {
+   padding: 1rem 2rem;
+   margin-top: 1rem;
+}
+
+.resultTitle{
+    padding: 2rem 1rem 1rem 1rem;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 2px 2px black;
+
+}
+.resultWrapper{
+    text-align: center;
+    margin: 0 1rem;
+}
+.resultCount{
+    margin: 1rem;
+    background: rgb(0, 234, 255);
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    border-radius: 2px;
+}
+
+.register {
+    z-index: 10;
+}
+
+.containerTable{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background:rgb(233, 241, 241);
+    opacity: 1;
+    position: absolute;
+    top: 5px;
+    margin: 0 auto;
+    z-index: 10;
+}
+
+
+.startBtn{
+    background:rgb(151, 188, 243);
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    border-radius: 5px;
+        >a{
+            padding: 2rem;
+            font-size: 1.5rem;
+            margin-top: 2rem;
+        &:active {
+            background: rgb(230, 0, 255);
+        }
+    }
+}
+.resultBtn{
+    padding: 1rem 1rem;
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    border-radius: 5px;
+        >a{
+            padding: .5rem;
+            font-size: 1.2rem;
+            margin-top: 2rem;
+        &:active {
+            background: rgb(230, 0, 255);
+        }
+    }
+}
+
+.containerText{ 
+    background: rgb(219, 219, 237);
+    padding: 10rem;
+    text-align: center;
+    width: 70%;
+    min-height: 100vh;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.containerSpinner{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
