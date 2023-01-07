@@ -5,7 +5,7 @@ import configFile from "../config.json";
 // export const usersEndpoint = "users/";
 
 axios.defaults.baseURL =
-    "https://test-app-a7089-default-rtdb.europe-west1.firebasedatabase.app/";
+    "https://test-app-ae57e-default-rtdb.europe-west1.firebasedatabase.app/";
 
 axios.interceptors.request.use(
     function (config) {
